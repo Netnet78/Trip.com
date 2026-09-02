@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip.Com</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="#" class="header-logo">
+        <img src="./images/trip.com.png" alt="trip.com logo" width="58" />
+        Trip.com
+      </a>
+
+      <!--  | Home | Destinations | Tours | Hotels | About | Contact | Login | -->
+      <nav class="navigation-container">
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i> Destinations</a>
+        <a href="#"><i class="fa-solid fa-person-walking-luggage"></i> Tours</a>
+        <a href="#"><i class="fa-solid fa-bed"></i> Hotels</a>
+        <a href="#"><i class="fa-solid fa-circle-info"></i> About</a>
+        <a href="#"><i class="fa-solid fa-phone-volume"></i> Contact</a>
+        <a href="#"><i class="fa-solid fa-key"></i> Login / Signup</a>
+      </nav>
+    </header>
+
+    <main class="main-body">
+      <section class="hero-section">
+        <div class="css-slider">
+          <div class="css-slider-track">
+            <img src="./images/angkor-wat-2.webp" alt="Angkor Wat Siemreap" />
+            <img src="./images/koh-rong-2.webp" alt="Koh Rong Sihanouk" />
+            <img src="./images/phnom-penh-2.webp" alt="Phnom Penh City" />
+            <img src="./images/angkor-wat-2.webp" alt="Angkor Wat Siemreap" />
+          </div>
+          <div class="css-slider-background"></div>
+        </div>
+
+        <div class="hero-container">
+          <h1 class="reveal">Discover Beautiful Cambodia</h1>
+
+          <div class="slogan reveal reveal-delay-1">
+            <span>Explore</span>
+            <div></div>
+            <span>Travel</span>
+            <div></div>
+            <span>Experience</span>
+          </div>
+
+          <button class="reveal reveal-delay-2">
+            Explore Destinations
+            <i class="fa-solid fa-angles-right"></i>
+            <div></div>
+          </button>
+        </div>
+
+        <div class="css-slider-background"></div>
+      </section>
+
+      <section class="popular-destinations-section">
+        <h1 class="section-title reveal">Popular Destinations</h1>
+        <h2 class="section-subtitle reveal reveal-delay-1">
+          Must-visit destinations worth adding to your itinerary.
+        </h2>
+
+        <div class="card-container">
+          <!-- Angkor Wat Card -->
+          <div class="angkor-wat destination-card reveal">
+            <div class="card-header">
+              <img src="images/angkor-wat.webp" alt="Angkor Wat" />
+              <div class="card-title">
+                <div class="card-title-text">
+                  <p class="card-heading">Angkor Wat</p>
+                  <p class="card-subtitle">in Siem Reap Province</p>
+                </div>
+                <div class="card-rating">
+                  4.9 <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-info">
+              Ancient, sprawling temple complex famous for lotus-shaped spires,
+              rich history, and golden sunrises.
+            </div>
+          </div>
+
+          <!-- Phnom Penh Card -->
+          <div class="phnom-penh destination-card reveal reveal-delay-1">
+            <div class="card-header">
+              <img src="images/phnom-penh.webp" alt="Phnom Penh" />
+              <div class="card-title">
+                <div class="card-title-text">
+                  <p class="card-heading">Phnom Penh</p>
+                  <p class="card-subtitle">Capital City</p>
+                </div>
+                <div class="card-rating">
+                  4.7 <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-info">
+              Bustling riverside capital featuring ornate royal palaces, rich
+              heritage, and vibrant nightlife.
+            </div>
+          </div>
+
+          <!-- Koh Rong Card -->
+          <div class="koh-rong destination-card reveal reveal-delay-2">
+            <div class="card-header">
+              <img src="images/koh-rong.webp" alt="Koh Rong" />
+              <div class="card-title">
+                <div class="card-title-text">
+                  <p class="card-heading">Koh Rong</p>
+                  <p class="card-subtitle">in Preah Sihanouk Province</p>
+                </div>
+                <div class="card-rating">
+                  4.8 <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-info">
+              Tropical island paradise offering powdery white-sand beaches,
+              crystal-clear waters, and glowing bioluminescent plankton.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular-tours-section">
+        <h1 class="section-title reveal">Popular Tours</h1>
+        <h2 class="section-subtitle reveal reveal-delay-1">
+          Pick your route, pack your bags, leave the rest to us.
+        </h2>
+
+        <div class="tours-container">
+          <!-- 1. Angkor Wat Tour -->
+          <div class="temple-tour tour-strip reveal">
+            <div class="tour-thumbnail">
+              <div class="duration-badge">
+                <i class="fa-solid fa-hourglass"></i>3 Days / 2 Nights
+              </div>
+              <img src="./images/bayon.webp" alt="Bayon Temple" />
+            </div>
+
+            <div class="tour-info">
+              <div class="tour-heading">
+                <p class="tour-title">Angkor Wat Tour</p>
+                <p class="tour-subtitle">
+                  An amazing tour package for temple exploration.
+                </p>
+              </div>
+              <hr />
+              <ul class="tour-benefits">
+                <li><i class="fa-solid fa-check"></i> Sunrise at Angkor Wat</li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Licensed English-speaking
+                  guide
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Private A/C Transportation
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> National Art Exhibit Ticket
+                  included
+                </li>
+              </ul>
+            </div>
+
+            <div class="tour-actions">
+              <p>From $150 / person</p>
+              <button>
+                Book Now
+                <div></div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. Phnom Penh City Tour -->
+          <div class="city-tour tour-strip reveal reveal-delay-1">
+            <div class="tour-thumbnail">
+              <div class="duration-badge">
+                <i class="fa-solid fa-hourglass"></i>1 Day / 8 Hours
+              </div>
+              <img
+                src="./images/phnom-penh.webp"
+                alt="Phnom Penh Royal Palace"
+              />
+            </div>
+
+            <div class="tour-info">
+              <div class="tour-heading">
+                <p class="tour-title">Phnom Penh Heritage Tour</p>
+                <p class="tour-subtitle">
+                  Discover royal landmarks, lively riverside views, and rich
+                  history.
+                </p>
+              </div>
+              <hr />
+              <ul class="tour-benefits">
+                <li>
+                  <i class="fa-solid fa-check"></i> Royal Palace & Silver Pagoda
+                  entry
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Traditional Tuk-Tuk city
+                  exploration
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Sunset Mekong River boat
+                  cruise
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Authentic Khmer street food
+                  tasting
+                </li>
+              </ul>
+            </div>
+
+            <div class="tour-actions">
+              <p>From $50 / person</p>
+              <button>
+                Book Now
+                <div></div>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Koh Rong Island Tour -->
+          <div class="island-tour tour-strip reveal reveal-delay-2">
+            <div class="tour-thumbnail">
+              <div class="duration-badge">
+                <i class="fa-solid fa-hourglass"></i>2 Days / 1 Night
+              </div>
+              <img src="./images/koh-rong.webp" alt="Koh Rong Beach" />
+            </div>
+
+            <div class="tour-info">
+              <div class="tour-heading">
+                <p class="tour-title">Koh Rong Island Escape</p>
+                <p class="tour-subtitle">
+                  Unwind on pristine white beaches and turquoise tropical
+                  waters.
+                </p>
+              </div>
+              <hr />
+              <ul class="tour-benefits">
+                <li>
+                  <i class="fa-solid fa-check"></i> Round-trip speed ferry
+                  transfers
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Snorkeling & coral reef
+                  excursion
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Beachfront bungalow
+                  accommodation
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Night bioluminescent
+                  plankton swim
+                </li>
+              </ul>
+            </div>
+
+            <div class="tour-actions">
+              <p>From $120 / person</p>
+              <button>
+                Book Now
+                <div></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews-section">
+        <div class="reviews-header">
+          <h2 class="section-title">Customer Reviews</h2>
+          <p class="section-subtitle">
+            Real feedback from travelers who explored Cambodia with us
+          </p>
+        </div>
+
+        <div class="reviews-carousel-container">
+          <div class="reviews-track">
+            <!-- Card 1 -->
+            <article class="review-card">
+              <div class="review-top">
+                <div class="review-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="review-tour-tag">Angkor Wat Tour</span>
+              </div>
+              <p class="review-text">
+                "Watching the sunrise over Angkor Wat was a bucket-list dream
+                come true. Our tour guide was so knowledgeable and knew all the
+                best photography angles!"
+              </p>
+              <div class="reviewer-profile">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&h=120&q=80"
+                  alt="Sarah Jenkins"
+                  class="reviewer-avatar"
+                />
+                <div class="reviewer-info">
+                  <h4 class="reviewer-name">Sarah Jenkins</h4>
+                  <p class="reviewer-location">Australia</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="review-card">
+              <div class="review-top">
+                <div class="review-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="review-tour-tag">Koh Rong Escape</span>
+              </div>
+              <p class="review-text">
+                "The boat transfer was super smooth, and the bioluminescent
+                plankton swim at night in Koh Rong was magical. Truly an
+                unforgettable island vacation."
+              </p>
+              <div class="reviewer-profile">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&h=120&q=80"
+                  alt="David Miller"
+                  class="reviewer-avatar"
+                />
+                <div class="reviewer-info">
+                  <h4 class="reviewer-name">David Miller</h4>
+                  <p class="reviewer-location">United Kingdom</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="review-card">
+              <div class="review-top">
+                <div class="review-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="review-tour-tag">Phnom Penh Heritage</span>
+              </div>
+              <p class="review-text">
+                "The Tuk-Tuk ride and sunset Mekong boat cruise were top tier.
+                Everything was perfectly organized from hotel pickup to
+                drop-off. 10/10 service!"
+              </p>
+              <div class="reviewer-profile">
+                <img
+                  src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&h=120&q=80"
+                  alt="Elena Rostova"
+                  class="reviewer-avatar"
+                />
+                <div class="reviewer-info">
+                  <h4 class="reviewer-name">Elena Rostova</h4>
+                  <p class="reviewer-location">Germany</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="review-card">
+              <div class="review-top">
+                <div class="review-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="review-tour-tag">Angkor Wat Tour</span>
+              </div>
+              <p class="review-text">
+                "Having private air-conditioned transport made exploring the
+                temples in the afternoon heat effortless. Can't wait to come
+                back to Cambodia!"
+              </p>
+              <div class="reviewer-profile">
+                <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80"
+                  alt="Marcus Chen"
+                  class="reviewer-avatar"
+                />
+                <div class="reviewer-info">
+                  <h4 class="reviewer-name">Marcus Chen</h4>
+                  <p class="reviewer-location">Singapore</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter-section">
+        <div class="newsletter-card">
+          <div class="newsletter-content">
+            <span class="newsletter-tag">
+              <i class="fa-solid fa-envelope-open-text"></i> STAY INSPIRED
+            </span>
+            <h2 class="newsletter-title">
+              Get the latest travel guides, seasonal deals, and local insider
+              stories delivered to your inbox.
+            </h2>
+
+            <form class="newsletter-form" onsubmit="event.preventDefault()">
+              <div class="input-wrapper">
+                <i class="fa-regular fa-envelope input-icon"></i>
+                <input
+                  type="email"
+                  placeholder="Enter your email address..."
+                  required
+                  aria-label="Email address"
+                />
+              </div>
+              <button type="submit" class="btn-subscribe">
+                <span>Subscribe Now&ThickSpace;</span>
+                <i class="fa-solid fa-paper-plane"></i>
+                <div></div>
+              </button>
+            </form>
+
+            <p class="newsletter-disclaimer">
+              <i class="fa-solid fa-shield-halved"></i> No spam, unsubscribe at
+              any time.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <section class="footer-links-container">
+        <div>
+          <a href="#" class="header-logo">
+            <img src="./images/trip.com.png" alt="Footer Logo" width="64" />
+            Trip.com
+          </a>
+          <p class="tagline">
+            Official Tourism Portal <br />Promoting authentic and sustainable
+            travel
+          </p>
+        </div>
+        <div class="footer-links">
+          <p>QUICK LINKS</p>
+          <a href="#">Top Destinations</a>
+          <a href="#">Seasonal Events</a>
+          <a href="#">Cultural Etiquette</a>
+          <a href="#">Itinerary Builder</a>
+        </div>
+        <div class="footer-links">
+          <p>TRAVEL ESSENTIALS</p>
+          <a href="#">Visa Requirements</a>
+          <a href="#">Weather & Climate</a>
+          <a href="#">Safety & Health Tips</a>
+          <a href="#">Emergency Contacts</a>
+        </div>
+        <div class="footer-links">
+          <p>CONNECT & FOLLOW</p>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+            Youtube
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-twitter"></i>
+            Twitter
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+            Facebook
+          </a>
+        </div>
+      </section>
+      <section class="footer-copyright">
+        © 2026 Trip.com | All Rights Reserved.
+        <div class="copyright-links-container">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
